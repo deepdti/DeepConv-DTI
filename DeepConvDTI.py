@@ -5,14 +5,14 @@ import pandas as pd
 
 # import keras modules
 import tensorflow as tf
-import keras.backend as K
-from keras.models import Model
-from keras.layers import Input, Dense, Dropout, BatchNormalization, Activation, Embedding, Lambda
-from keras.layers import Convolution1D, GlobalMaxPooling1D, SpatialDropout1D
-from keras.layers import Concatenate
-from keras.optimizers import Adam
-from keras.regularizers import l2,l1
-from keras.preprocessing import sequence
+import tensorflow.keras.backend as K
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Dense, Dropout, BatchNormalization, Activation, Embedding, Lambda
+from tensorflow.keras.layers import Convolution1D, GlobalMaxPooling1D, SpatialDropout1D
+from tensorflow.keras.layers import Concatenate
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.regularizers import l2,l1
+from tensorflow.keras.preprocessing import sequence
 
 
 from sklearn.metrics import precision_recall_curve, auc, roc_curve
